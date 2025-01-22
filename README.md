@@ -42,31 +42,34 @@ NFT-Project/
 │   ├── foundry.toml # Foundry configuration
 │
 └── README.md      # Project documentation
+```
 
-## Setup Instructions
+## Truffle Setup
 
-
-**1. Truffle**
+**1. Project Initialization:**
 
 ```bash
 truffle init
 truffle compile
 truffle develop
+```
 
-**2. Hardhat**
+## Hardhat Setup
 
-**Project Setup:**
+**1. Project Initialization:**
 
 ```bash
 npx hardhat init
 npx hardhat compile
 npx hardhat node
+```
 
-**3. Foundry**
+## Foundry Setup
 
-**Project Setup:**
+**1. Project Initialization:**
 
 ```bash
 forge init
 forge build
 forge start
+```
